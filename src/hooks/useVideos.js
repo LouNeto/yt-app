@@ -1,9 +1,9 @@
 import { useState, useEffect } from 'react';
 import youtube from '../apis/youtube';
 
-const KEY = 'AIzaSyBsngMkUWLPC8xbBn5fhoO5EwQsndph3No';
+// const KEY = 'AIzaSyBsngMkUWLPC8xbBn5fhoO5EwQsndph3No';
 // localhost:3000 only key
-// const KEY = 'AIzaSyDvv6GGw3KuDwlhFjRiIHMBgkKkpXbBHIM';
+const KEY = 'AIzaSyDvv6GGw3KuDwlhFjRiIHMBgkKkpXbBHIM';
 
 const useVideos = (defaultSearchTerm) => {
   const [videos, setVideos] = useState([]);
